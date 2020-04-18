@@ -1,0 +1,77 @@
+.chekced { width: 23px; height: 21px;   background: url(/admin/img/chek.png) no-repeat; cursor: pointer;}
+.add_chekced { background: url(/admin/img/chek_add.png) no-repeat;}
+/*table*/                                                                                                                                   
+.kroshka { padding: 5px;   }
+table, td, th {  border: 1px solid black; padding: 2px 20px;  }
+table { margin: 0 0 25px 0; border-collapse: collapse; background-color: white; }
+td, tr { height: 25px;  font-size: 10px; }
+th {   background: url(/admin/img/title.gif); background-color: #b0c4de;  }
+table input { width: 19px; height: 21px; display: block; margin: 0 auto; padding: 0 0 0 6px;}
+table #input_date { width: 110px;}
+.green { color: green;  }
+.red { color: red;  }
+/*add*/
+.td_abb { background: url(/admin/img/abb.png) no-repeat 1px center;   } 
+ a span { margin: 0 0 0 7px; color: black;  } 
+.td_abb a { display: block; float: left; width: 80px; padding: 3px 0 3px 20px;    }
+
+/*nav
+.nav a, .nav  a:visited, .nav span { background: url(/admin/img/bg_nav.gif); margin: 0 1px; display: block; padding: 5px 7px; border: 1px solid silver;   float: left;}
+.nav span { cursor: not-allowed; font-weight: bold; color: maroon;     }	
+#update { background: url(/admin/img/bg_nav.gif); margin: 0 20px; padding: 7px 15px; border: 1px solid silver; cursor: pointer; }
+
+*/
+.nav  { margin: 20px 40px;     } 
+.nav a, .nav  a:visited, .nav span { background: url(/admin/img/bg_nav.gif); margin: 0 5px; padding: 5px 7px; border: 1px solid silver;}
+.nav span { cursor: not-allowed; font-weight: bold; color: maroon; background-color: aqua;      }	
+
+#update { background: url(/admin/img/bg_nav.gif); margin: 20px; padding: 7px 15px; border: 1px solid silver; cursor: pointer; }
+
+
+
+/*edit_form*/
+#edit_form { width: 90%; overflow: hidden; position: relative; background-color: white; border: 1px dotted #0742E4;  margin: 3% auto; padding: 15px; }
+	#edit_form #clous { color: red; cursor: pointer;  font-weight: bold; position: absolute; right: 10px; top: 13px;  }
+	#edit_form h3 { color: blue; font-size: 14px; font-weight: bold; text-align: center;  }
+	#edit_form h6 {  font-size: 11px; padding: 7px 0 0 0; font-weight: bold; text-align: center;  }
+
+	#edit_form .order { margin: 10px auto; }
+	#edit_form 	p { padding: 4px; }
+	
+	
+	#edit_form li { background: url(/admin/img/bg_nav.gif); cursor: pointer; font-size: 10px; color: blue;  display: block; text-align: center; padding: 7px 12px; border: 1px solid silver;  margin: 5px 15px 0 0;  }
+	#edit_form err { display: block; }
+	#edit_form label, #edit_form #t_leb, #edit_form #links {  overflow: hidden; display: block;  background: #f5f5b2; border: 1px dotted #0742E4;  margin: 10px auto 0 auto;  padding: 5px; }
+		#edit_form #text { width: 250px; float: left; padding: 4px;}
+			#text p { padding: 5px; font-size: 11px; font-weight: normal;   }
+			#edit_form img{ border: 1px solid #000; padding: 2px; cursor: pointer;  margin-right: 5px; }
+		#edit_form #link { background: url(/admin/img/set.png) no-repeat; padding: 2px 23px;  }
+		#edit_form #upload_s #pole { border: 1px solid silver; height: 100px;  }
+		#edit_form #pole { float: left; margin: 0 0 0 17px;  }
+		#edit_form .select, #edit_form .select1 { background: #fff url(/admin/img/select_arr.png) no-repeat 290px center; border: 1px solid #666; width: 300px; padding: 2px; line-height: 22px;   }
+			.select_ul { padding: 10px; background: #fff; border: 1px solid #666; }
+			.select_ul div { background: url(/admin/img/fon37000.gif) no-repeat left 10px; padding: 5px 0 0 10px; color: blue;  }
+			.select_ul span { color: red; float: right;   }
+		 
+		
+			#edit_form input { height: 22px; width: 300px; padding: 2px;}
+			#edit_form textarea { width: 300px; height: 200px; }
+			#edit_form select { width: 300px; height: 24px;}
+			select option { padding: 2px;}
+			
+			#edit_form .data { width: 150px;  }
+			#edit_form .num { width: 27px; text-align: center; }
+			#edit_form .price { width: 60px; text-align: center; }
+
+			.chekced { float: left;  }
+			#edit_form #links { padding-left: 272px;  }
+				#links li, #links1 a { background: url(/admin/img/bg_nav.gif); cursor: pointer; font-size: 10px; color: blue;  display: block; padding: 5px 15px; border: 1px solid silver;  margin: 0 15px 0 0;  float: left;  }
+				#links li:hover, #links1 li:hover, #text li:hover { color: red;  }
+/*modal*/
+#mask { position:absolute; left:0; top:0; z-index:9000;  background-color:#000;}
+	#modal { background-color: #f4f4f4; position:absolute; left:0; top:0; z-index:9000; width: 70%;}
+	#modal .title_form { color: blue; font-size: 14px; font-weight: bold; text-align: center; margin: 10px 0;    }
+	#modal #links1 { text-align: center; overflow: hidden; display: block;  background: #f5f5b2; border: 1px dotted #0742E4;  margin: 15px auto;  padding: 5px 5px 5px 25%;  }
+#cerro { border: 0px; position: relative; text-align: center; font-size: 12px; font-weight: bold;}
+#cerro #load {  border: 0px; width: 100%; background: url(/admin/img/load.gif) no-repeat center 20px; padding: 50px 0 20px 0; color: green; }
+

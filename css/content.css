@@ -1,0 +1,179 @@
+#cerror {text-align: center; font-size: 12px; font-weight: bold;}
+#cerror div { background: url(/img/load.gif) no-repeat center 10px; height: 42px; width: 100%; margin: 0;}
+#cerror p { padding: 0 0 20px 0;  color: green; }
+#cerror .err { color: red; }
+.grren { color: green; }
+
+#cerror li { color: red; text-align: left; display: block; margin: 20px; }
+
+/*orders*/
+
+
+#orders { width: 742px; font-size: 12px; }
+#orders .none { visibility: hidden; }
+
+#orders input, textarea { border: 1px solid #b8b8b8;}
+#orders #top_str { padding: 5px 0 14px 8px;  }
+
+#orders #top_str h3 { padding-left: 56px; float: left; font-size: 18px; font-weight: bold; background:url(/img/tit_orde.jpg) no-repeat; display: block;  height: 34px; line-height: 44px; }
+#orders #top_str a {  float: right; font-size: 13px; text-decoration: underline; color: #609bf5; line-height: 44px; display: block; }
+#orders table { width: 742px; border-collapse: collapse;  }
+
+
+#orders th { font-weight: normal; font-size: 12px; text-align: left; height: 22px; position: relative; }
+#orders th a { color: #609bf5;  padding-left: 7px; position: absolute; top: 52px; left: 0px;   }
+
+#orders tr { height: 22px; font-size: 12px; border-bottom: 1px solid #dedfdf; }
+#orders tr:first-child { border-bottom: 1px solid #32518c;}
+#orders td { text-indent: 6px; }
+#orders td #col_1 { width: 28px;   }
+#orders #kol0 {   width: 13px; text-align: center;}
+#orders #col_2 { width: 487px; }
+#orders #col_3 { width: 95px; }
+#orders .pos { width: 33px; text-align: center;}
+#orders #col_4 { width: 95px; text-indent: 4px; }
+#orders #col_5 { text-align: center; }
+
+#orders #str_ob { padding: 19px 0 0 2px;  height: 60px;}
+#orders #str_ob #info { margin: 3px 5px 0 5px; background:url(../img/obed_in.gif) no-repeat; display: block;  width: 20px; height: 22px; float: left; }
+#orders #str_ob input { border: none; float: left;}
+
+#orders #str_ob #itog {  padding:  3px 25px 0 0; font-size: 17px; font-weight: bold; text-align: right;}
+#orders #str_ob #itog p { font-size: 17px; font-weight: bold; float: right; padding: 12px 83px 0 0; }
+
+#orders #str_ob span { font-size: 17px;}
+
+#orders #sale2 { font-size: 17px; font-weight: bold; color: green; text-align: right;  width: 716px; padding: 12px 0 0 0;   }
+#orders #sale2 span { font-size: 17px;}
+
+
+#orders #dost { font-weight: bold; font-size: 17px; width: 317px; position: relative; }
+#orders #dost h3 {font-size: 15px; border-bottom: 1px solid #32518c; padding: 0 0 5px 40px; }
+#orders #dost p { padding: 4px 0 2px 15px;}
+#orders #dost input { margin: 0 5px 0 0; height: 11px;  }
+#orders #dost span { position: absolute; left: 225px; }
+
+
+
+
+#orders #sk1 { background: #eee; height: 69px; margin: 15px 5px 40px 5px;  position: relative; }
+#orders #sk1 p { padding: 25px 0 0 14px; width: 165px;  font-size: 14px; float: left; }
+#orders #sk1 a {font-size: 13px; text-decoration: underline; color: #2936d3; }
+#orders #sk1 #right { height: 30px;  width: 306px;  float: right; margin-top: 17px; }
+#orders #sk1 #right a {  margin: 6px 0 0 8px; display: block;  float: left; }
+#orders #sk1 input { padding: 3px 0 0 5px; width: 186px; height: 27px;    float: left;}
+
+
+
+
+
+
+
+
+
+#orders #of { overflow: hidden; margin-bottom: 25px;  margin-top: 25px;}
+#orders #of h3, #orders #opl h3 { font-size: 15px; font-weight: bold; border-bottom: 1px solid #32518c; padding: 0 0 5px 40px; margin-bottom: 13px;  }
+#orders #of #info { float: left; font-size: 13px; font-weight: bold;}
+
+#orders #of #info label { display: block; overflow: hidden; }
+#orders #of #info label span { display: block; width: 75px; text-align: right; padding: 6px; float: left;}
+#orders #of #info label input { height: 25px; width: 145px; line-height: 25px; margin-bottom: 3px;}
+#orders #of #info li { display: block;   color: red;  text-align: right; font-size: 12px; font-weight: bold;   }
+
+#orders #of #info2 { font-size: 13px; font-weight: bold; float: right; margin-right: 25px;}
+#orders #of #info2 label { display: block; overflow: hidden; }
+#orders #of #info2 label span {display: block; width: 150px; text-align: right; padding: 6px; float: left; }
+#orders #of #info2 label textarea { height: 113px; width: 310px;}
+#orders #of #info2 li { display: block;   color: red;  text-align: right; font-size: 12px; font-weight: bold;   }
+
+
+
+#orders #opl { overflow: hidden; }
+#orders #opl p { font-weight: bold; padding: 4px 0 2px 15px;}
+#orders #opl p input { margin: 0 5px 0 0; height: 11px;}
+#orders #opl li { margin-top: 10px; width: 185px; text-align: center; float: left;}
+#orders #opl li img { width: 185px; height: 80px; margin-bottom: 20px; }
+#orders #opl .inp { width: 185px; height: 80px; margin-bottom: 20px; }
+#orders #opl .web_m {background:url(../img/webmoney.gif) no-repeat bottom center;}
+#orders #opl .viza {background:url(../img/viza.gif) no-repeat bottom center;}
+#orders #opl .ya {background:url(../img/ya.gif) no-repeat bottom center;}
+#orders #opl .mon {background:url(../img/mon.gif) no-repeat bottom center;}
+#orders #opl .vtb {background:url(../img/vtb.gif) no-repeat bottom center;}
+#orders #opl .kas {background:url(../img/kassir.gif) no-repeat bottom center;}
+#orders #opl .forv {background:url(../img/forv.gif) no-repeat bottom center;}
+#orders #opl .pay {background:url(../img/pay.gif) no-repeat bottom center;}
+#orders #opl .bank {background:url(../img/bank.gif) no-repeat bottom center; }
+#orders #opl .eleks {background:url(../img/eleks.gif) no-repeat bottom center;}
+#orders #opl .dr {background:url(../img/dr.gif) no-repeat bottom center;}
+#orders #opl #left { float: left;  width: 290px; margin: 50px 0; }
+#orders #opl #left p {padding: 3px; }
+#orders #opl #left input { display: block; float: left;  height: 15px;  }
+#orders #opl #right { float: right;  width: 446px;  margin: 50px 2px; }
+#orders #opl #right li { display: block;   color: red; padding-left: 200px;  text-align: left;  font-size: 12px; font-weight: bold;  width: 100%;   }
+
+
+#orders #opl #pany { background:url(../img/pany.gif) no-repeat bottom center;  width: 274px; height: 53px; float: left; }
+#orders #opl #sub {background:url(/img/oform.gif) no-repeat; float: right; margin-top: 7px; padding: 60px 150px 0 0; cursor: pointer;}
+#orders .error_a { color: red; font-weight: bold; margin-bottom: 5px; }
+
+
+#modal { position:absolute; }
+#modal #bloks { border: 1px solid #000; background: white; border-left: 3px solid red; padding: 15px; font-size: 12px;  }
+#modal #bloks div { padding: 5px;  overflow: hidden; }
+#modal #bloks li { padding: 5px 0 2px 10px;  overflow: hidden; }
+#modal #bloks a { padding: 5px 0 2px 10px;  overflow: hidden; }
+
+.clous { color: red; font-weight: bold; cursor: pointer; position: absolute; right: 2px; top: 1px; }
+.green { color: green;}
+.red { color: red; }
+
+
+
+/* forms */
+
+
+.forms b {color : red; font-size: 15px;}
+fieldset { border: 1px solid #0742E4; margin: 15px auto;}
+#main .forms input, textarea  {  border: 1px solid silver;}
+.send_form { background-color: white; border: 1px dotted #0742E4;  margin: 20px auto; padding: 15px; width: 700px; text-align: center; }
+.forms { width: 300px;  }
+.forms .error_a { text-align: center; color: red; clear: both; font-weight: bold; font-size: 12px; padding-top: 5px; }
+.forms h3 {color : red; padding: 10px 0 10px 0; }
+.forms h1 {color : fff; font-size: 15px;}
+.forms p span {float: left;}
+.forms fieldset { padding: 10px; }
+.forms  #text { display: block; height: 25px;  padding:  5px ;  font-size: 11px; }
+.forms #text input { height: 20px; width: 170px; line-height: 20px; float: right;  }
+.forms  #textarea { display: block;   padding:  5px ; font-size: 11px; overflow: hidden;}
+.forms  #textarea textarea { height: 165px; width: 170px; height: 170px; float: right;  }
+.forms #submit, #orders #submit  { padding: 8px 13px ; background-color: #88c837; color: #fff; font-weight: bold; 
+  -moz-border-radius: 11px; 
+  -webkit-border-radius: 11px; 
+  -khtml-border-radius: 11px; 
+  border-radius: 11px; 
+  behavior: url(../../border-radius.htc);
+}
+.form_order { width: 600px;}
+/*form_activ */
+.form_activ { width: 745px; margin: 30px 0 0 0; font-weight: bold; text-align: right;}
+.form_activ input, textarea  {  border: 1px solid silver; margin: 0 0 4px 6px; }
+.form_activ input  { height: 25px; width: 188px;}
+.form_activ input  { height: 25px; width: 188px;}
+.form_activ .left {  float: left; }
+.form_activ .left p span { display: block; width: 75px; float: left; height: 27px;   line-height: 27px; }
+.form_activ .right { float: right;}
+.form_activ .right p span { display: block; float: left; width: 190px; height: 27px; line-height: 27px; }
+.form_activ .right #submit { width: 192px; height: 42px; margin: 40px 0; border: none; }
+.form_activ .right p #text { height: 56px; line-height: 15px; }
+.form_activ .right textarea { height: 56px; width: 188px; }
+
+
+
+/* login form */
+.login_form {background: url(../admin/img/top.jpg) repeat-x 0 57px; border: 1px dotted #0742E4;   margin: 20px auto; padding: 15px; width: 430px; }
+.login_form .cms { background: url(../admin/img/web_cms.png); width: 166px; height: 46px; position: absolute; top: 25px; right: 40px; }
+.login_form fieldset { padding: 0 10px 10px 10px; position: relative;}
+.login_form p { font-weight: bold; padding:   5px ; }
+.login_form input { height: 20px; width: 170px; line-height: 20px; }
+
+#clear{ clear: both; }

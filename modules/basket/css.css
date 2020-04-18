@@ -1,0 +1,78 @@
+#content-zakaz { width:90%; margin:0 auto; background: white; padding: 15px;  } 
+	#content-zakaz h2 { text-align:center; font:normal 24px Verdana; margin:0 0 10px 0; }
+	#content-zakaz	.zakaz-maiin-table { width:100%; margin: 0 0 30px; }
+		#content-zakaz .zakaz-maiin-table tr { border: 1px solid silver;  }
+		#content-zakaz .zakaz-maiin-table td{ padding:10px; }		
+		#content-zakaz .zakaz-maiin-table th { padding:10px; background:#fafbfb;   border-bottom:1px solid #dee7ec; font:bold 12px Verdana; color:#555; }
+			.z_name a{ font:12px Verdana; color:#2b8aba; }				
+			.z_name a:hover{ text-decoration:none; }
+			
+			.z_art { width:140px; 		}
+			
+			
+			.z_kol, .z_price, .z_del { text-align:center; }
+			.z_kol{ position: relative; width: 97px; height: 20px; }
+				.z_kol .arr_plus{ background: url(/img/plus.png) no-repeat; width:20px; height: 20px; cursor: pointer; position: absolute; right: 0; top: 12px; }
+				.kolvo{ width:48px; height:22px; font:14px Verdana; color:#000; background:#fafafa; border:1px solid #b5b5b5; text-align:center; position: absolute; left: 33px; top: 10px; }
+				.z_kol .arr_minus{ background: url(/img/minus.png) no-repeat; width:20px; height: 20px; cursor: pointer; position: absolute; left: 0; top: 12px; }		
+			.z_price{ width:80px; }
+			.z_del{ width:65px; }
+			.z_del img { cursor: pointer;  }		
+			.z_bot { background:#fafbfb; border-top:1px solid #dee7ec; font:bold 12px Verdana; color:#555; text-align: center;  }
+	
+	.sposob-dostavki p { font-size:12px; font-family:Verdana; margin-top:7px; }
+	.sposob-dostavki { margin:0 0 30px 0; }			
+	#content-zakaz h4 { font:bold 14px Verdana; }	
+	#form_send { width:100%; background:#fafafa; margin:10px 0 40px 0;}
+		#form_send h3 { font:bold 16px Verdana; margin-bottom: 20px; }	
+		#form_send label { display: block; overflow: hidden; margin: 15px 0 0 0; }
+			#form_send label #text { line-height: 30px; width: 100px; padding: 0 0 0 15px;  float: left;}
+			#form_send label #pole { float: left;   }
+			#form_send err { display: block; }
+			#form_send input, textarea  { height: 28px; width: 332px; border: 1px solid #ccc;  }
+			textarea  { height: 150px;	}
+		#form_send #submit { background: url("/img/zakazat.jpg"); margin: 40px 0 0 5px; width: 235px; height: 49px; cursor: pointer;  }
+
+		
+		
+		
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	.zakaz-data{
+		width:100%; background:#fafafa; margin:10px 0 40px 0;
+		}
+		.zakaz-data td{
+			vertical-align: middle; padding:10px 10px 0px 10px;
+			}
+	.zakaz-txt{
+		font:14px Verdana; color:#555555;
+		}
+	.zakaz-prim{
+		font:12px Verdana; color:#c0c0c0; font-style:italic;
+		}
+	.zakaz-inpt{
+		}	
+		.zakaz-inpt input{
+			width:330px; height:28px; border:1px solid #ccc;
+			}
+		.zakaz-txtarea{	
+			padding:10px 10px 20px 10px !important;
+			}		
+		.zakaz-txtarea textarea{
+			width:330px; height:100px; border:1px solid #ccc;
+			}	

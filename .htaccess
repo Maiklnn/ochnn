@@ -1,0 +1,12 @@
+RewriteEngine On
+RewriteBase   /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^c].*)$ index.php?page=$1 [PT]
+#RewriteRule ^category/(.*)$ category/index.php?page=$1 [PT]
+AddDefaultCharset utf-8
+AddCharset utf-8 *
+<IfModule mod_charset.c>
+CharsetSourceEnc utf-8
+CharsetDefault utf-8
+</IfModule>

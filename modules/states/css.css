@@ -1,0 +1,11 @@
+#content a:link, #content a:visited {color: blue; text-decoration:none; cursor: pointer;}
+#content a:hover {text-decoration:underline; color: red; }
+/* index */
+.wrap { width:90%; margin:0px auto ; }
+.wrap a:link, .wrap a:visited { background : url(/img/marker.gif) center left no-repeat; padding: 0 0 0 15px; color: blue; text-decoration:none; cursor: pointer; display: block; margin: 0 0 10px 0;}
+.wrap a:hover {background : url(/img/marker2.gif) center left no-repeat; text-decoration:underline; color: red; }
+/*nav*/
+.nav  { margin: 0 AUTO;   overflow: hidden; display: table;     } 
+.nav a, .nav  a:visited, .nav span { background: url(/admin/img/bg_nav.gif); color: blue;   margin: 0 1px; display: block; padding: 5px 7px; border: 1px solid silver;   float: left;}
+.nav span { cursor: not-allowed; font-weight: bold; color: maroon;     }	
+#update { background: url(/admin/img/bg_nav.gif); margin: 0 20px; padding: 7px 15px; border: 1px solid silver; cursor: pointer; }
